@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jim</title>
+        <script src="media/dist/js/lightbox-plus-jquery.min.js"></script>
+        <link rel="stylesheet" href="media/dist/css/lightbox.min.css">
+        <link rel="stylesheet" href="opmaak.css">
+    </head>
+    <body>
+        <div id="hoofdDIV">
+            <div id="titel">
+                <script id="tui-cf70">(function(t){t.cf70={"id":"tzd3aez3nind0vp9",
+                    "size":"1300x150"}}(window.tweenui=window.tweenui||{}))</script>
+                    <script src="https://s3-eu-west-1.amazonaws.com/display.tweenui.com/v.js" async></script>
+            </div>
+            <div id="menu">
+                <a href="index.html">
+                    <img src="media/startUIT.png" class="knop" 
+                            onmouseover="verander(this,'media/startAAN.png')"
+                            onmouseout="verander(this,'media/startUIT.png')">
+                </a>
+                <a href="uitrusting.html">
+                    <img src="media/uitrustingUIT.png" class="knop" 
+                            onmouseover="verander(this,'media/uitrustingAAN.png')"
+                            onmouseout="verander(this,'media/uitrustingUIT.png')">
+                </a>
+                <a href="suplementen.html">
+                    <img src="media/suplementenUIT.png" class="knop" 
+                            onmouseover="verander(this,'media/suplementenAAN.png')"
+                            onmouseout="verander(this,'media/suplementenUIT.png')">
+                </a>
+                <a href="coaches.html">
+                    <img src="media/coachesUIT.png" class="knop" 
+                            onmouseover="verander(this,'media/coachesAAN.png')"
+                            onmouseout="verander(this,'media/coachesUIT.png')">
+                </a>
+                <a href="vitrine.html">
+                    <img src="media/vitrineUIT.png" class="knop" 
+                            onmouseover="verander(this,'media/vitrineAAN.png')"
+                            onmouseout="verander(this,'media/vitrineUIT.png')">
+                </a>
+            </div>
+            <div id="inhoud">                                       
+                <table id="afbeeldingTabel">
+                <tr>
+                    <td colspan="3" id="titelPosters">Klik op een poster om hem te vergroten...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="media/arnold.jpg" data-lightbox="slides"><img class="afbeeldingKlein" src="media/arnold.jpg"></a>
+                    </td>
+                    <td>
+                        <a href="media/ronnie.webp" data-lightbox="slides"><img class="afbeeldingKlein" src="media/ronnie.webp"></a>
+                    </td>
+                    <td>
+                        <a href="media/tom.jpg" data-lightbox="slides"><img class="afbeeldingKlein" src="media/tom.jpg"></a>
+                    </td>
+                </tr>     
+                <tr>
+                    <td>Arnold Schwarzenegger</td>
+                    <td>Ronnie Coleman</td>
+                    <td>Tom Platz</td>
+                </tr>
+                <tr>
+                    <td id="videoCel"  colspan="3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DJURC0RvKBA?si=uoX8MBZApGG0219_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                </tr>  
+               </table>                                                
+            </div>
+            <div id="voet">
+                <p><h3>
+                    Gabriel Zuza - 2025
+                </h3>
+                </p> 
+            </div>
+        </div>
+    </body>
+    <script>
+        function verander(knop, afbeelding){
+            knop.src = afbeelding;
+        }
+    </script>
+</html>
